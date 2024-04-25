@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Employee
+[
+<!ELEMENT Employee(emp+)
+<!ELEMENT emp (name,salary,address)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT salary (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+]>
+
+<emp>
+<name>Rahul</name>
+<salary>30k</salary>
+<address>Nashik</address>	
+</emp>
